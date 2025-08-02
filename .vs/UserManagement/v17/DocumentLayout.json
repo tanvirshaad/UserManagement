@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\itransition\\UserManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,18 +94,6 @@
       "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|d:\\itransition\\usermanagement\\usermanagement\\migrations\\20250801181719_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EE84875-C59C-4DB2-8091-BD8E90B56AD1}|UserManagement\\UserManagement.csproj|solutionrelative:usermanagement\\migrations\\20250801181719_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -105,36 +105,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "UserManagement\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-02T09:29:34.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "UserManagement\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T18:04:33.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\Home\\Index.cshtml",
@@ -142,12 +117,11 @@
               "RelativeToolTip": "UserManagement\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-01T13:53:22.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T13:53:22.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "UserManagement\\Interfaces\\IUserService.cs",
@@ -159,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "UserManagement\\Interfaces\\IAuthService.cs",
@@ -171,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UserManagement\\Controllers\\HomeController.cs",
@@ -184,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "UserManagement\\Controllers\\AccountController.cs",
@@ -192,12 +166,11 @@
               "RelativeToolTip": "UserManagement\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAADwvz8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:37:38.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T14:37:38.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "UserManagement\\DTOs\\LoginDTO.cs",
@@ -205,12 +178,11 @@
               "RelativeToolTip": "UserManagement\\DTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T12:16:18.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T12:16:18.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "UserManagement\\DTOs\\RegisterDTO.cs",
@@ -218,12 +190,11 @@
               "RelativeToolTip": "UserManagement\\DTOs\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T12:15:43.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T12:15:43.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "dashboard.js",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\wwwroot\\js\\dashboard.js",
               "RelativeDocumentMoniker": "UserManagement\\wwwroot\\js\\dashboard.js",
@@ -231,12 +202,74 @@
               "RelativeToolTip": "UserManagement\\wwwroot\\js\\dashboard.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-01T18:48:33.035Z",
+              "WhenOpened": "2025-08-01T18:48:33.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UserManagement\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:28:29.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Program.cs",
+              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Program.cs",
+              "RelativeToolTip": "UserManagement\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T09:41:17.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "UserManagement\\appsettings.json",
+              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\appsettings.json",
+              "RelativeToolTip": "UserManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T09:42:41.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "UserManagement\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "UserManagement\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T18:04:33.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "UserManagement\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T09:29:34.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "20250801180748_Index column updated.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Migrations\\20250801180748_Index column updated.cs",
               "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250801180748_Index column updated.cs",
@@ -248,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "20250801181352_initial migration.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Migrations\\20250801181352_initial migration.cs",
               "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250801181352_initial migration.cs",
@@ -272,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "site.css",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "UserManagement\\wwwroot\\css\\site.css",
@@ -284,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "UserManagement\\Views\\Account\\Register.cshtml",
@@ -296,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "UserManagement\\Services\\AuthService.cs",
@@ -308,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "UserManagement\\Services\\UserService.cs",
@@ -320,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "UserManagement\\DTOs\\UserDTO.cs",
@@ -332,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Models\\Entities\\User.cs",
               "RelativeDocumentMoniker": "UserManagement\\Models\\Entities\\User.cs",
@@ -344,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "20250801180005_Initial migration.cs",
               "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Migrations\\20250801180005_Initial migration.cs",
               "RelativeDocumentMoniker": "UserManagement\\Migrations\\20250801180005_Initial migration.cs",
@@ -356,49 +389,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAAIVAAAAAAAAAIAywBEVAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-08-01T14:14:00.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "UserManagement\\appsettings.json",
-              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\appsettings.json",
-              "RelativeToolTip": "UserManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T09:42:41.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Program.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Program.cs",
-              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Program.cs",
-              "RelativeToolTip": "UserManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:41:17.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\itransition\\UserManagement\\UserManagement\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "UserManagement\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\itransition\\UserManagement\\UserManagement\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "UserManagement\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:28:29.941Z"
             }
           ]
         }
