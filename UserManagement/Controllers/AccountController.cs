@@ -61,11 +61,7 @@ namespace UserManagement.Controllers
                 ModelState.AddModelError("", "Account not found.");
                 return View(model);
             }
-
-            // Update last login
             await _userService.UpdateLastLoginAsync(user.Id);
-
-            // Set session
             HttpContext.Session.SetInt32("UserId", user.Id);
             HttpContext.Session.SetString("UserName", user.Name);
 
