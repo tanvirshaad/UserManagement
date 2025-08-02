@@ -69,10 +69,7 @@ namespace UserManagement.Services
             {
                 return false; // Email already exists
             }
-            catch
-            {
-                return false;
-            }
+            
         }
 
         public async Task<bool> BlockUsersAsync(List<int> userIds)
