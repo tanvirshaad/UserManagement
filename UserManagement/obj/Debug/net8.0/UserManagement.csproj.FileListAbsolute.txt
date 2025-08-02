@@ -9,6 +9,7 @@ D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\UserManagement.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\UserManagement.pdb
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Azure.Core.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Azure.Identity.dll
+D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Humanizer.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -45,6 +46,7 @@ D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Microsoft.Identity
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\System.ClientModel.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\System.CodeDom.dll
 D:\itransition\UserManagement\UserManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
@@ -152,6 +154,7 @@ D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.csp
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.MvcApplicationPartsAssemblyInfo.cache
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.RazorAssemblyInfo.cache
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.RazorAssemblyInfo.cs
+D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.sourcelink.json
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -162,10 +165,10 @@ D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\staticwebassets.bu
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\staticwebassets.development.json
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserMana.582A6DE7.Up2Date
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.dll
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\refint\UserManagement.dll
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.pdb
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\UserManagement.genruntimeconfig.cache
 D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\ref\UserManagement.dll
+D:\itransition\UserManagement\UserManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

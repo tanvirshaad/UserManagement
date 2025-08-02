@@ -36,7 +36,9 @@ namespace UserManagement.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
 
                     b.Property<DateTime?>("LastLogin")
                         .HasColumnType("datetime2");
@@ -52,14 +54,23 @@ namespace UserManagement.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime>("RegistrationTime")
-                        .HasColumnType("datetime2");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
 
                     b.Property<string>("Status")
                         .IsRequired()
+                        .ValueGeneratedOnAdd()
                         .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(20)")
+                        .HasDefaultValue("Active");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique()
+                        .HasDatabaseName("IX_Users_Email_Unique")
+                        .HasFilter("[IsDeleted] = 0");
 
                     b.ToTable("Users");
                 });

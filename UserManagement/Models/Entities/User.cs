@@ -1,7 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace UserManagement.Models.Entities
 {
+    [Index(nameof(Email), IsUnique = true)]
     public class User
     {
         [Key]
