@@ -33,6 +33,17 @@ namespace UserManagement.Middleware
             if (!await authService.IsUserValidAsync(userId.Value))
             {
                 context.Session.Clear();
+                
+                // For AJAX requests, return JSON response
+                if (context.Request.Headers["X-Requested-With"] == "XMLHttpRequest" || 
+                    context.Request.Headers["Content-Type"] == "application/json")
+                {
+                    context.Response.StatusCode = 403;
+                    context.Response.ContentType = "application/json";
+                    await context.Response.WriteAsync("{\"success\":false,\"redirect\":true,\"error\":\"account_blocked\",\"message\":\"Your account has been blocked.\"}");
+                    return;
+                }
+                
                 context.Response.Redirect("/Account/Login?error=account_blocked");
                 return;
             }

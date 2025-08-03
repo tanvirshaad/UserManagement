@@ -254,10 +254,19 @@ function executeAction(action, userIds) {
         },
         body: JSON.stringify(userIds)
     })
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        return response.json();
+    })
     .then(data => {
         if (data.redirect) {
-            window.location.href = '/Account/Login?error=authentication_required';
+            if (data.error === 'account_blocked') {
+                window.location.href = '/Account/Login?error=account_blocked';
+            } else {
+                window.location.href = '/Account/Login?error=authentication_required';
+            }
             return;
         }
         
@@ -273,7 +282,14 @@ function executeAction(action, userIds) {
     })
     .catch(error => {
         console.error('Error:', error);
-        showAlert(`An error occurred while trying to ${action} users.`, 'danger');
+        if (error.message.includes('401') || error.message.includes('403')) {
+            showAlert('Your account has been blocked or you are not authorized to perform this action.', 'danger');
+            setTimeout(() => {
+                window.location.href = '/Account/Login?error=account_blocked';
+            }, 2000);
+        } else {
+            showAlert(`An error occurred while trying to ${action} users: ${error.message}`, 'danger');
+        }
     })
     .finally(() => {
         // Re-enable buttons

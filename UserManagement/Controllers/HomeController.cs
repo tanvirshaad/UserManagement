@@ -33,17 +33,35 @@ namespace UserManagement.Controllers
                 return RedirectToAction("Login", "Account", new { error = "account_blocked" });
             }
 
-            var users = await _userService.GetAllUsersAsync();
-            return View(users);
+            try
+            {
+                var users = await _userService.GetAllUsersAsync();
+                return View(users);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception in a real application
+                return RedirectToAction("Login", "Account", new { error = "authentication_required" });
+            }
         }
 
         [HttpPost]
         public async Task<IActionResult> BlockUsers([FromBody] List<int> userIds)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
-            if (!userId.HasValue || !await _authService.IsUserValidAsync(userId.Value))
+            if (!userId.HasValue)
             {
-                return Json(new { success = false, redirect = true });
+                return Json(new { success = false, redirect = true, error = "authentication_required", message = "Please log in to continue." });
+            }
+
+            if (!await _authService.IsUserValidAsync(userId.Value))
+            {
+                return Json(new { success = false, redirect = true, error = "account_blocked", message = "Your account has been blocked." });
+            }
+
+            if (userIds == null || !userIds.Any())
+            {
+                return Json(new { success = false, message = "No users selected for blocking." });
             }
 
             var success = await _userService.BlockUsersAsync(userIds);
@@ -54,9 +72,19 @@ namespace UserManagement.Controllers
         public async Task<IActionResult> UnblockUsers([FromBody] List<int> userIds)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
-            if (!userId.HasValue || !await _authService.IsUserValidAsync(userId.Value))
+            if (!userId.HasValue)
             {
-                return Json(new { success = false, redirect = true });
+                return Json(new { success = false, redirect = true, error = "authentication_required", message = "Please log in to continue." });
+            }
+
+            if (!await _authService.IsUserValidAsync(userId.Value))
+            {
+                return Json(new { success = false, redirect = true, error = "account_blocked", message = "Your account has been blocked." });
+            }
+
+            if (userIds == null || !userIds.Any())
+            {
+                return Json(new { success = false, message = "No users selected for unblocking." });
             }
 
             var success = await _userService.UnblockUsersAsync(userIds);
@@ -67,9 +95,19 @@ namespace UserManagement.Controllers
         public async Task<IActionResult> DeleteUsers([FromBody] List<int> userIds)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
-            if (!userId.HasValue || !await _authService.IsUserValidAsync(userId.Value))
+            if (!userId.HasValue)
             {
-                return Json(new { success = false, redirect = true });
+                return Json(new { success = false, redirect = true, error = "authentication_required", message = "Please log in to continue." });
+            }
+
+            if (!await _authService.IsUserValidAsync(userId.Value))
+            {
+                return Json(new { success = false, redirect = true, error = "account_blocked", message = "Your account has been blocked." });
+            }
+
+            if (userIds == null || !userIds.Any())
+            {
+                return Json(new { success = false, message = "No users selected for deletion." });
             }
 
             var success = await _userService.DeleteUsersAsync(userIds);

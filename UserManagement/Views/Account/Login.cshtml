@@ -30,6 +30,16 @@
                     </div>
                 }
 
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <div>@modelError.ErrorMessage</div>
+                        }
+                    </div>
+                }
+
                 @if (TempData["SuccessMessage"] != null)
                 {
                     <div class="alert alert-success" role="alert">

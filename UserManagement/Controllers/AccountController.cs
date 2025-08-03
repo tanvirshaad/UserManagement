@@ -27,7 +27,7 @@ namespace UserManagement.Controllers
             ViewBag.Error = error switch
             {
                 "invalid_credentials" => "Invalid email or password.",
-                "account_blocked" => "Your account has been blocked.",
+                "account_blocked" => "Your account has been blocked by an administrator.",
                 "authentication_required" => "Please log in to continue.",
                 _ => null
             };
@@ -52,7 +52,7 @@ namespace UserManagement.Controllers
 
             if (user.Status == "Blocked")
             {
-                ModelState.AddModelError("", "Your account has been blocked.");
+                ModelState.AddModelError("", "Your account has been blocked by an administrator.");
                 return View(model);
             }
 
